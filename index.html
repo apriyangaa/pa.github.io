@@ -3,33 +3,39 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="PA — Remote IT Support, Cloud, DevOps, Data Engineering & AI/ML services worldwide." />
+  <meta name="description" content="Priyangaa Annathurai — Remote Cloud, DevOps, Data Engineering, AI/ML, and AI Creative services worldwide." />
   <meta name="robots" content="index,follow" />
-  <meta property="og:title" content="PA — Remote IT, Cloud, DevOps, Data & AI/ML (Worldwide)" />
-  <meta property="og:description" content="Enterprise-grade remote IT operations, cloud engineering, DevOps automation, data engineering, and AI/ML enablement — delivered worldwide." />
+  <meta property="og:title" content="Priyangaa Annathurai — Cloud • DevOps • Data • AI/ML • AI Creative (Worldwide)" />
+  <meta property="og:description" content="Engineering-led remote delivery: IT operations, cloud engineering, DevOps automation, data engineering, AI/ML enablement — plus AI animation videos & graphics." />
   <meta property="og:type" content="website" />
-  <meta name="theme-color" content="#07070b" />
-  <title>PA— Remote IT, Cloud, DevOps, Data & AI/ML Services</title>
+  <meta name="theme-color" content="#0b0b10" />
+  <title>Priyangaa Annathurai — Cloud • DevOps • Data • AI/ML (Worldwide)</title>
 
   <style>
     :root{
-      /* iRed Wave theme: Black / White / Red */
-      --bg:#06070a;
-      --bg2:#0b0b0f;
+      /* GOLD / BLACK / WHITE THEME */
+      --bg:#07070b;
+      --bg2:#0c0c12;
+
       --text:#ffffff;
       --muted: rgba(255,255,255,.74);
       --muted2: rgba(255,255,255,.58);
+
       --line: rgba(255,255,255,.12);
       --line2: rgba(255,255,255,.18);
 
-      --red:#ff2d2d;
-      --red2:#ff4d4d;
+      --gold:#d6b35f;
+      --gold2:#f2d58b;
+      --gold3:#b6903f;
+
       --ok:#4dff9a;
 
       --card: rgba(255,255,255,.04);
       --card2: rgba(255,255,255,.03);
+
       --shadow: 0 18px 44px rgba(0,0,0,.55);
       --shadow2: 0 10px 22px rgba(0,0,0,.35);
+
       --radius: 18px;
       --radius2: 14px;
       --max: 1120px;
@@ -40,13 +46,14 @@
 
     *{ box-sizing:border-box; }
     html,body{ height:100%; }
+
     body{
       margin:0;
       font-family: var(--sans);
       color: var(--text);
       background:
-        radial-gradient(900px 500px at 15% 10%, rgba(255,45,45,.14), transparent 60%),
-        radial-gradient(800px 450px at 85% 12%, rgba(255,45,45,.10), transparent 60%),
+        radial-gradient(900px 500px at 15% 10%, rgba(214,179,95,.16), transparent 60%),
+        radial-gradient(800px 450px at 85% 12%, rgba(242,213,139,.11), transparent 60%),
         linear-gradient(180deg, var(--bg), var(--bg2));
       line-height: 1.6;
       overflow-x: hidden;
@@ -61,7 +68,7 @@
       inset: 0;
       pointer-events: none;
       z-index: 0;
-      opacity: .22;
+      opacity: .20;
       background:
         linear-gradient(rgba(255,255,255,.08) 1px, transparent 1px),
         linear-gradient(90deg, rgba(255,255,255,.08) 1px, transparent 1px);
@@ -83,9 +90,9 @@
       height: 180px;
       pointer-events: none;
       z-index: 0;
-      background: linear-gradient(180deg, transparent, rgba(255,45,45,.12), transparent);
+      background: linear-gradient(180deg, transparent, rgba(214,179,95,.16), transparent);
       filter: blur(0.4px);
-      opacity: .45;
+      opacity: .42;
       animation: scan 8.5s linear infinite;
     }
     @keyframes scan{
@@ -123,7 +130,7 @@
       width: 40px; height: 40px; border-radius: 12px;
       border: 1px solid rgba(255,255,255,.16);
       background:
-        radial-gradient(14px 14px at 30% 30%, rgba(255,45,45,.95), rgba(255,45,45,0) 70%),
+        radial-gradient(14px 14px at 30% 30%, rgba(242,213,139,.95), rgba(242,213,139,0) 70%),
         radial-gradient(18px 18px at 70% 60%, rgba(255,255,255,.32), rgba(255,255,255,0) 70%),
         linear-gradient(145deg, rgba(255,255,255,.08), rgba(255,255,255,.02));
       box-shadow: 0 10px 24px rgba(0,0,0,.55);
@@ -134,23 +141,24 @@
       content:"";
       position:absolute;
       inset:-60%;
-      background: conic-gradient(from 180deg, rgba(255,45,45,0), rgba(255,45,45,.35), rgba(255,255,255,.18), rgba(255,45,45,0));
+      background: conic-gradient(from 180deg, rgba(214,179,95,0), rgba(214,179,95,.35), rgba(255,255,255,.18), rgba(214,179,95,0));
       animation: spin 7s linear infinite;
       opacity: .65;
     }
     @keyframes spin{ to { transform: rotate(360deg);} }
 
     .brand-title{
-      font-weight: 900;
+      font-weight: 950;
       letter-spacing: .2px;
+      line-height: 1.1;
     }
     .brand-title span{
-      color: var(--red);
-      text-shadow: 0 0 16px rgba(255,45,45,.25);
+      color: var(--gold2);
+      text-shadow: 0 0 16px rgba(214,179,95,.20);
     }
     .brand-sub{ color: var(--muted2); font-size: 12.5px; }
 
-    nav{ display:flex; gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
+    nav{ display:flex; gap: 10px; flex-wrap: wrap; justify-content: flex-end; align-items:center; }
     nav a{
       padding: 8px 10px;
       border-radius: 999px;
@@ -160,11 +168,20 @@
       transition: background .18s ease, border-color .18s ease, transform .18s ease;
     }
     nav a:hover{
-      border-color: var(--line);
+      border-color: rgba(214,179,95,.22);
       background: rgba(255,255,255,.04);
       color: var(--text);
       text-decoration:none;
       transform: translateY(-1px);
+    }
+    nav a.linkedin{
+      border-color: rgba(214,179,95,.28);
+      background: rgba(214,179,95,.10);
+      color: rgba(255,255,255,.92);
+      font-weight: 900;
+    }
+    nav a.linkedin:hover{
+      box-shadow: 0 0 16px rgba(214,179,95,.18);
     }
 
     /* Hero */
@@ -183,8 +200,8 @@
       position:absolute;
       inset:-2px;
       background:
-        radial-gradient(620px 320px at 10% 10%, rgba(255,45,45,.18), transparent 60%),
-        radial-gradient(520px 260px at 92% 18%, rgba(255,45,45,.12), transparent 60%);
+        radial-gradient(620px 320px at 10% 10%, rgba(214,179,95,.18), transparent 60%),
+        radial-gradient(520px 260px at 92% 18%, rgba(242,213,139,.12), transparent 60%);
       pointer-events:none;
       opacity: .9;
     }
@@ -193,10 +210,10 @@
       position:absolute;
       inset:-1px;
       border-radius: var(--radius);
-      border: 1px solid rgba(255,45,45,.18);
+      border: 1px solid rgba(214,179,95,.18);
       pointer-events:none;
       opacity: .6;
-      filter: drop-shadow(0 0 18px rgba(255,45,45,.10));
+      filter: drop-shadow(0 0 18px rgba(214,179,95,.10));
     }
     .hero > * { position: relative; }
 
@@ -206,17 +223,17 @@
       gap:10px;
       padding: 7px 12px;
       border-radius: 999px;
-      border: 1px solid rgba(255,45,45,.35);
-      background: rgba(255,45,45,.08);
-      color: rgba(255,255,255,.82);
+      border: 1px solid rgba(214,179,95,.38);
+      background: rgba(214,179,95,.09);
+      color: rgba(255,255,255,.86);
       font-family: var(--mono);
       font-size: 12.5px;
       letter-spacing: .2px;
     }
     .kdot{
       width: 7px; height: 7px; border-radius: 999px;
-      background: var(--red);
-      box-shadow: 0 0 0 5px rgba(255,45,45,.14);
+      background: var(--gold2);
+      box-shadow: 0 0 0 5px rgba(214,179,95,.14);
     }
 
     h1{
@@ -224,12 +241,15 @@
       font-size: clamp(26px, 3.8vw, 44px);
       line-height: 1.12;
       letter-spacing: -0.4px;
+      text-shadow:
+        0 0 14px rgba(214,179,95,0.14),
+        0 0 28px rgba(214,179,95,0.08);
     }
 
     /* Typing line */
     .typed{
       display:inline-block;
-      border-right: 2px solid rgba(255,45,45,.85);
+      border-right: 2px solid rgba(242,213,139,.85);
       padding-right: 6px;
       white-space: nowrap;
       overflow: hidden;
@@ -240,9 +260,11 @@
       margin:0;
       color: var(--muted);
       font-size: 16.5px;
-      max-width: 90ch;
+      max-width: 92ch;
     }
     .sub b{ color: #fff; }
+    .sub .gold{ color: var(--gold2); }
+
     .hero-grid{
       display:grid;
       grid-template-columns: 1.15fr .85fr;
@@ -268,15 +290,15 @@
       text-decoration:none;
       transition: transform .18s ease, background .18s ease, border-color .18s ease, box-shadow .18s ease;
     }
-    .btn:hover{ background: rgba(255,255,255,.07); text-decoration:none; transform: translateY(-1px); }
+    .btn:hover{ background: rgba(255,255,255,.07); text-decoration:none; transform: translateY(-1px); border-color: rgba(214,179,95,.22); }
     .btn.primary{
-      border-color: rgba(255,45,45,.55);
-      background: linear-gradient(180deg, rgba(255,45,45,.24), rgba(255,45,45,.12));
-      box-shadow: 0 0 0 6px rgba(255,45,45,.08), 0 10px 25px rgba(0,0,0,.25);
+      border-color: rgba(214,179,95,.55);
+      background: linear-gradient(180deg, rgba(214,179,95,.22), rgba(214,179,95,.10));
+      box-shadow: 0 0 0 6px rgba(214,179,95,.08), 0 10px 25px rgba(0,0,0,.25);
     }
     .btn.primary:hover{
-      background: linear-gradient(180deg, rgba(255,45,45,.30), rgba(255,45,45,.16));
-      box-shadow: 0 0 0 7px rgba(255,45,45,.10), 0 14px 30px rgba(0,0,0,.35);
+      background: linear-gradient(180deg, rgba(242,213,139,.24), rgba(214,179,95,.14));
+      box-shadow: 0 0 0 7px rgba(214,179,95,.10), 0 14px 30px rgba(0,0,0,.35);
     }
     .btn.ghost{
       border-color: rgba(255,255,255,.18);
@@ -333,14 +355,14 @@
     }
     .card:hover{
       transform: translateY(-2px);
-      border-color: rgba(255,45,45,.25);
+      border-color: rgba(214,179,95,.28);
       box-shadow: 0 18px 44px rgba(0,0,0,.50);
     }
     .card:after{
       content:"";
       position:absolute;
       inset:-2px;
-      background: radial-gradient(260px 160px at 20% 0%, rgba(255,45,45,.12), transparent 70%);
+      background: radial-gradient(260px 160px at 20% 0%, rgba(214,179,95,.12), transparent 70%);
       opacity: .75;
       pointer-events:none;
     }
@@ -369,13 +391,13 @@
       position: relative;
       overflow: hidden;
     }
-    .icon.red{
-      box-shadow: 0 0 0 6px rgba(255,45,45,.09);
+    .icon.gold{
+      box-shadow: 0 0 0 6px rgba(214,179,95,.09);
     }
-    .icon.red:after{
+    .icon.gold:after{
       content:"";
       position:absolute; inset:-60%;
-      background: conic-gradient(from 90deg, rgba(255,45,45,0), rgba(255,45,45,.28), rgba(255,255,255,.10), rgba(255,45,45,0));
+      background: conic-gradient(from 90deg, rgba(214,179,95,0), rgba(214,179,95,.28), rgba(255,255,255,.10), rgba(214,179,95,0));
       animation: spin 9s linear infinite;
       opacity: .7;
     }
@@ -393,7 +415,7 @@
       font-size: 12.5px;
       font-family: var(--mono);
     }
-    .pill.red{ border-color: rgba(255,45,45,.45); background: rgba(255,45,45,.08); }
+    .pill.gold{ border-color: rgba(214,179,95,.45); background: rgba(214,179,95,.10); }
     .pill.ok{ border-color: rgba(77,255,154,.35); background: rgba(77,255,154,.06); }
 
     /* Delivery steps */
@@ -415,13 +437,13 @@
       border-radius: 999px;
       padding: 6px 10px;
       font-size: 12.5px;
-      background: rgba(255,45,45,.08);
-      border: 1px solid rgba(255,45,45,.30);
-      color: rgba(255,255,255,.82);
+      background: rgba(214,179,95,.10);
+      border: 1px solid rgba(214,179,95,.32);
+      color: rgba(255,255,255,.86);
       font-family: var(--mono);
       margin-bottom: 8px;
     }
-    .badge .dot{ width:7px; height:7px; border-radius:999px; background: var(--red); }
+    .badge .dot{ width:7px; height:7px; border-radius:999px; background: var(--gold2); }
 
     /* Plans */
     .price{
@@ -435,14 +457,14 @@
     }
     .price:hover{
       transform: translateY(-2px);
-      border-color: rgba(255,45,45,.26);
+      border-color: rgba(214,179,95,.28);
       box-shadow: 0 18px 44px rgba(0,0,0,.50);
     }
     .price:before{
       content:"";
       position:absolute;
       inset:-20%;
-      background: radial-gradient(420px 220px at 25% 10%, rgba(255,45,45,.14), transparent 60%);
+      background: radial-gradient(420px 220px at 25% 10%, rgba(214,179,95,.14), transparent 60%);
       opacity:.9;
       pointer-events:none;
     }
@@ -461,7 +483,7 @@
       color: var(--muted);
       white-space: nowrap;
     }
-    .tag.hot{ border-color: rgba(255,45,45,.45); background: rgba(255,45,45,.10); color: rgba(255,255,255,.88); }
+    .tag.hot{ border-color: rgba(214,179,95,.48); background: rgba(214,179,95,.12); color: rgba(255,255,255,.92); }
 
     /* FAQ */
     details{
@@ -494,7 +516,7 @@
       background: rgba(255,255,255,.06);
       text-decoration:none;
       transform: translateY(-1px);
-      border-color: rgba(255,45,45,.25);
+      border-color: rgba(214,179,95,.28);
     }
     .contact-card small{ display:block; color: var(--muted2); margin-top: 3px; }
 
@@ -507,7 +529,7 @@
 
     /* Accessibility: reduce motion */
     @media (prefers-reduced-motion: reduce){
-      .bg-grid, .scanline, .logo:after, .icon.red:after { animation: none !important; }
+      .bg-grid, .scanline, .logo:after, .icon.gold:after { animation: none !important; }
       .typed{ border-right: none !important; }
       *{ scroll-behavior: auto !important; }
     }
@@ -536,8 +558,8 @@
       <div class="brand">
         <div class="logo" aria-hidden="true"></div>
         <div>
-          <div class="brand-title">i<span>Red</span> Wave</div>
-          <div class="brand-sub">Practical IT. Professional Service. • Remote Worldwide</div>
+          <div class="brand-title">Priyangaa <span>Annathurai</span></div>
+          <div class="brand-sub">Remote Cloud • DevOps • Data • AI/ML • AI Creative • Worldwide</div>
         </div>
       </div>
 
@@ -548,20 +570,21 @@
         <a href="#plans">Plans</a>
         <a href="#faq">FAQ</a>
         <a href="#contact">Contact</a>
+        <a class="linkedin" href="https://linkedin.com/in/priyangaaannathurai" target="_blank" rel="noopener">LinkedIn ↗</a>
       </nav>
     </header>
 
     <!-- HERO -->
     <section class="hero" id="top">
-      <span class="kicker"><span class="kdot" aria-hidden="true"></span> WORLDWIDE REMOTE DELIVERY • IT OPS • CLOUD • DEVOPS • DATA • AI/ML</span>
+      <span class="kicker"><span class="kdot" aria-hidden="true"></span> WORLDWIDE REMOTE DELIVERY • CLOUD • DEVOPS • DATA • AI/ML • AI CREATIVE</span>
 
       <h1>
         <span class="typed" id="typed"></span>
       </h1>
 
       <p class="sub">
-        <b>iRed Wave</b> delivers enterprise-style operations for individuals and businesses — from day-to-day IT support to
-        cloud engineering, CI/CD automation, production-grade data pipelines, and AI/ML enablement.
+        <b>Priyangaa Annathurai</b> provides engineering-led delivery — from day-to-day IT operations to cloud engineering,
+        CI/CD automation, production-grade data pipelines, <span class="gold">AI/ML enablement</span>, and <span class="gold">AI animation videos & graphics</span>.
         <span class="muted2">Based in Malaysia • Serving worldwide.</span>
       </p>
 
@@ -573,15 +596,15 @@
 
       <div class="hero-grid">
         <div class="card">
-          <div class="icon red">OPS</div>
-          <b>Engineering-led support (not guesswork)</b>
+          <div class="icon gold">OPS</div>
+          <b>Engineering-led support (structured, clear, documented)</b>
           <p class="muted" style="margin:8px 0 0;">
             Ticket-based workflows, clear scope, practical fixes, and documented outcomes.
-            We focus on reliability, security hygiene, and automation-first solutions.
+            Focus on reliability, security hygiene, and automation-first solutions.
           </p>
 
           <div class="pill-row">
-            <span class="pill red">Remote worldwide</span>
+            <span class="pill gold">Remote worldwide</span>
             <span class="pill">SLA-style response</span>
             <span class="pill ok">Documented delivery</span>
           </div>
@@ -594,11 +617,12 @@
         <div class="card soft">
           <div class="muted2 mono" style="font-weight:900;">Typical remote engagements</div>
           <ul>
-            <li><b>IT Support:</b> device issues, email/account access, performance tuning</li>
+            <li><b>IT Ops:</b> troubleshooting, performance tuning, account/admin support</li>
             <li><b>Cloud:</b> IAM/RBAC, storage layouts, monitoring & alerting</li>
             <li><b>DevOps:</b> CI/CD pipelines, Dockerization, deployment workflows</li>
-            <li><b>Data:</b> Spark/SQL ETL, warehouses, dashboards, streaming ingestion</li>
+            <li><b>Data:</b> ETL/ELT, warehousing, dashboards, streaming ingestion</li>
             <li><b>AI/ML:</b> model integration, inference APIs, automation assistants</li>
+            <li><b>AI Creative:</b> AI animation videos, motion graphics, brand visuals</li>
           </ul>
         </div>
       </div>
@@ -612,9 +636,9 @@
 
     <section class="grid">
       <div class="card">
-        <div class="icon red">IT</div>
+        <div class="icon gold">IT</div>
         <b>Remote IT Support & Operations</b>
-        <p class="muted" style="margin:8px 0 0;">Reliable L1/L2 support with structured troubleshooting and clear updates.</p>
+        <p class="muted" style="margin:8px 0 0;">Reliable support with structured troubleshooting and clear updates.</p>
         <ul>
           <li>Windows / macOS / Linux troubleshooting</li>
           <li>Microsoft 365 & Google Workspace admin support</li>
@@ -625,12 +649,12 @@
       </div>
 
       <div class="card">
-        <div class="icon red">CLD</div>
+        <div class="icon gold">CLD</div>
         <b>Cloud Engineering (AWS / Azure)</b>
         <p class="muted" style="margin:8px 0 0;">Secure foundations + monitoring + automation for cloud environments.</p>
         <ul>
           <li>IAM/RBAC baselines (least privilege)</li>
-          <li>S3 / Blob storage design, lifecycle, backup guidance</li>
+          <li>Storage design, lifecycle, backup guidance</li>
           <li>Serverless automation (Lambda / Functions)</li>
           <li>Monitoring & alerting for visibility and uptime</li>
           <li>Cost-aware improvements (reduce waste safely)</li>
@@ -638,9 +662,9 @@
       </div>
 
       <div class="card">
-        <div class="icon red">DATA</div>
+        <div class="icon gold">DATA</div>
         <b>Data Engineering & Analytics</b>
-        <p class="muted" style="margin:8px 0 0;">Production-grade pipelines, warehouses, dashboards and quality controls.</p>
+        <p class="muted" style="margin:8px 0 0;">Pipelines, warehouses, dashboards, and quality controls.</p>
         <ul>
           <li>ETL/ELT pipelines (Spark/SQL), incremental loads</li>
           <li>Snowflake / PostgreSQL / SQL Server optimization</li>
@@ -653,7 +677,7 @@
 
     <section class="grid-2">
       <div class="card">
-        <div class="icon red">DEV</div>
+        <div class="icon gold">DEV</div>
         <b>DevOps & Platform Engineering</b>
         <p class="muted" style="margin:8px 0 0;">Predictable deployments, fewer manual steps, cleaner ops.</p>
         <ul>
@@ -665,7 +689,7 @@
         </ul>
 
         <div class="pill-row">
-          <span class="pill red">GitHub Actions</span>
+          <span class="pill gold">GitHub Actions</span>
           <span class="pill">Azure DevOps</span>
           <span class="pill">Docker</span>
           <span class="pill">Kubernetes</span>
@@ -674,23 +698,67 @@
       </div>
 
       <div class="card">
-        <div class="icon red">AI</div>
+        <div class="icon gold">AI</div>
         <b>AI/ML & Intelligent Automation</b>
-        <p class="muted" style="margin:8px 0 0;">Practical AI that improves ops, decisions, and workflows — not hype.</p>
+        <p class="muted" style="margin:8px 0 0;">Practical AI to improve ops, decisions, and workflows — not hype.</p>
         <ul>
           <li>ML workflow enablement: data prep, features, evaluation support</li>
           <li>Inference services: API-based model integration (serverless/container)</li>
-          <li>Automation assistants: classification, summarization, extraction (use-case based)</li>
-          <li>Monitoring basics: data drift checks, error tracking (scope-based)</li>
+          <li>Automation assistants: classification, summarization, extraction</li>
+          <li>Monitoring basics: drift checks, error tracking (scope-based)</li>
           <li>Dashboard integration: surfacing AI outputs to Power BI/Tableau</li>
         </ul>
 
         <div class="pill-row">
-          <span class="pill red">Inference APIs</span>
+          <span class="pill gold">Inference APIs</span>
           <span class="pill">Python</span>
           <span class="pill">MLOps</span>
           <span class="pill ok">Automation-first</span>
         </div>
+      </div>
+    </section>
+
+    <!-- AI CREATIVE (NEW) -->
+    <div class="section-title" id="creative">
+      <h2>AI Creative</h2>
+      <div class="hint">AI animation videos • Motion graphics • Brand visuals</div>
+    </div>
+
+    <section class="grid">
+      <div class="card">
+        <div class="icon gold">VID</div>
+        <b>AI Animation Videos</b>
+        <p class="muted" style="margin:8px 0 0;">Short-form promos, explainers, product storytelling, and content upgrades.</p>
+        <ul>
+          <li>AI-assisted storyboard + scripting support (scope-based)</li>
+          <li>Explainer animations & tech product walk-throughs</li>
+          <li>Social content formats (Reels/TikTok/Shorts sizing)</li>
+          <li>Brand-consistent visuals and pacing</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="icon gold">GRFX</div>
+        <b>AI Graphics & Visual Design</b>
+        <p class="muted" style="margin:8px 0 0;">High-impact visuals for brands, tech pages, and campaigns.</p>
+        <ul>
+          <li>Posters, banners, ad creatives, thumbnails</li>
+          <li>Tech-themed hero graphics for websites</li>
+          <li>Brand packs: color, layout, templates (scope-based)</li>
+          <li>Delivery in clean formats (PNG/JPG/SVG where suitable)</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="icon gold">KIT</div>
+        <b>Content Systems & Automation</b>
+        <p class="muted" style="margin:8px 0 0;">Repeatable content workflows so publishing becomes easy.</p>
+        <ul>
+          <li>Template systems for fast creation</li>
+          <li>Automated content pipelines (scope-based)</li>
+          <li>Versioning, approvals, and handover documentation</li>
+          <li>Consistency across platforms and brand feel</li>
+        </ul>
       </div>
     </section>
 
@@ -702,12 +770,12 @@
 
     <section class="card">
       <p class="muted" style="margin:0;">
-        We adapt to your environment. Strongest coverage in these stacks:
+        I adapt to your environment. Strongest coverage in these stacks:
       </p>
 
       <div class="pill-row" style="margin-top:12px;">
-        <span class="pill red">AWS</span>
-        <span class="pill red">Azure</span>
+        <span class="pill gold">AWS</span>
+        <span class="pill gold">Azure</span>
         <span class="pill">Linux</span>
         <span class="pill">Windows</span>
         <span class="pill">Microsoft 365</span>
@@ -725,7 +793,7 @@
         <span class="pill">SQL Server</span>
         <span class="pill">Power BI</span>
         <span class="pill">Tableau</span>
-        <span class="pill red">AI/ML</span>
+        <span class="pill gold">AI/ML</span>
         <span class="pill">TensorFlow</span>
         <span class="pill">scikit-learn</span>
         <span class="pill">ML Pipelines</span>
@@ -740,9 +808,9 @@
 
     <section class="grid-2">
       <div class="card">
-        <b>How we deliver</b>
+        <b>How I deliver</b>
         <p class="muted" style="margin:8px 0 0;">
-          Every engagement follows a structured flow. You’ll always know what we’re doing, why it matters, and what changed.
+          Every engagement follows a structured flow. You’ll know what’s being done, why it matters, and what changed.
         </p>
 
         <div class="steps">
@@ -754,17 +822,17 @@
           <div class="step">
             <span class="badge"><span class="dot"></span> Step 2</span>
             <b>Plan</b>
-            <div class="muted">Timeline, risks, and the simplest effective solution.</div>
+            <div class="muted">Timeline, risks, and the simplest effective approach.</div>
           </div>
           <div class="step">
             <span class="badge"><span class="dot"></span> Step 3</span>
             <b>Execute</b>
-            <div class="muted">Implement, test, document, and validate outcomes.</div>
+            <div class="muted">Implement, test, document, validate outcomes.</div>
           </div>
           <div class="step">
             <span class="badge"><span class="dot"></span> Step 4</span>
             <b>Stabilize</b>
-            <div class="muted">Monitoring, runbooks, handover, and improvements.</div>
+            <div class="muted">Monitoring, runbooks, handover, improvements.</div>
           </div>
         </div>
       </div>
@@ -783,7 +851,7 @@
         <div class="pill-row">
           <span class="pill ok">Tickets + tracking</span>
           <span class="pill">Weekly summary</span>
-          <span class="pill red">RCA notes</span>
+          <span class="pill gold">RCA notes</span>
         </div>
       </div>
     </section>
@@ -802,7 +870,7 @@
           <span class="tag">Individuals / small teams</span>
         </div>
         <p class="muted" style="margin:0 0 10px;">
-          Best for remote helpdesk needs and light operational support.
+          Best for remote support and operational stability.
         </p>
         <ul>
           <li>Remote support (ticket-based)</li>
@@ -818,11 +886,11 @@
       <div class="price">
         <div class="plan">MONTHLY</div>
         <div class="plan-name">
-          <h3>Business Ops+</h3>
+          <h3>Ops+ (SME)</h3>
           <span class="tag hot">Most popular</span>
         </div>
         <p class="muted" style="margin:0 0 10px;">
-          For SMEs needing stability: patch coordination, incident triage, and structured reporting.
+          For SMEs needing structure: patching, incident triage, and reporting.
         </p>
         <ul>
           <li>SLA response targets (scope-based)</li>
@@ -838,17 +906,18 @@
       <div class="price">
         <div class="plan">PROJECT / RETAINER</div>
         <div class="plan-name">
-          <h3>Cloud + Data + AI</h3>
+          <h3>Build & Scale</h3>
           <span class="tag">Engineering-led</span>
         </div>
         <p class="muted" style="margin:0 0 10px;">
-          Cloud foundations, CI/CD automation, data pipelines, and AI/ML enablement.
+          Cloud foundations, CI/CD automation, data pipelines, AI/ML + AI Creative delivery.
         </p>
         <ul>
           <li>Cloud setup (IAM/storage/monitoring)</li>
           <li>CI/CD pipelines & deployment workflows</li>
           <li>ETL pipelines & quality checks</li>
           <li>Inference APIs & intelligent automation</li>
+          <li>AI animation videos & graphics packages</li>
         </ul>
         <div class="cta-row" style="margin-top:12px;">
           <a class="btn ghost" href="#contact">Discuss scope</a>
@@ -865,69 +934,69 @@
     <section class="card">
       <details>
         <summary>Do you work worldwide even though you’re based in Malaysia?</summary>
-        <p>Yes. We work fully remote and support clients worldwide. For retainers, we align response windows to your timezone and define SLAs clearly.</p>
+        <p>Yes. I work fully remote and support clients worldwide. For retainers, we align response windows to your timezone and define SLAs clearly.</p>
       </details>
 
       <details>
         <summary>Do you offer one-time fixes or only monthly plans?</summary>
-        <p>Both. We handle one-time troubleshooting, fixed-scope projects, and monthly retainers. If you’re unsure, start with a one-time assessment and we’ll recommend the best path.</p>
+        <p>Both. I handle one-time troubleshooting, fixed-scope projects, and monthly retainers. If you’re unsure, start with a one-time assessment and I’ll recommend the best path.</p>
       </details>
 
       <details>
         <summary>Can you help with cybersecurity?</summary>
-        <p>We support defensive security: IAM/access audits, endpoint/email security hygiene, log review support, and governance-ready reporting. We do not assist with hacking or bypassing security controls.</p>
+        <p>I support defensive security: IAM/access reviews, endpoint/email security hygiene, and governance-ready reporting. I do not assist with hacking or bypassing security controls.</p>
       </details>
 
       <details>
-        <summary>What do you need from us to start?</summary>
-        <p>A short problem statement, your timezone, your environment (OS/cloud/provider/tools), and your preferred access method. We confirm scope before any work begins.</p>
+        <summary>What do you need from me to start?</summary>
+        <p>A short problem statement, your timezone, your environment (OS/cloud/provider/tools), and your preferred access method. Scope is confirmed before any work begins.</p>
       </details>
     </section>
 
     <!-- CONTACT -->
     <div class="section-title" id="contact">
-      <h2>Contact iRed Wave</h2>
-      <div class="hint">Fast response • Worldwide remote service</div>
+      <h2>Contact</h2>
+      <div class="hint">Fast response • Worldwide remote delivery</div>
     </div>
 
     <section class="card">
       <p class="muted" style="margin:0;">
-        Include: <span class="mono">issue summary</span>, <span class="mono">device/platform</span>, <span class="mono">timezone</span>, and any <span class="mono">error messages</span>.
+        Include: <span class="mono">summary</span>, <span class="mono">platform</span>, <span class="mono">timezone</span>, and any <span class="mono">error messages</span>.
       </p>
 
       <div class="contact-grid">
         <div class="contact-card">
-          <a href="mailto:epriyangaa.annathurai@outlook.com?subject=iRed%20Wave%20-%20Remote%20Service%20Request">
+          <a href="mailto:priyangaa.annathurai@outlook.com?subject=Remote%20Service%20Request%20-%20Priyangaa%20Annathurai">
             <b>Email</b>
             <small>priyangaa.annathurai@outlook.com</small>
           </a>
         </div>
 
         <div class="contact-card">
-          <a href="https://iredwave.it.com" target="_blank" rel="noopener">
-            <b>Website</b>
-            <small>iredwave.it.com</small>
+          <a href="https://linkedin.com/in/priyangaaannathurai" target="_blank" rel="noopener">
+            <b>LinkedIn</b>
+            <small>linkedin.com/in/priyangaaannathurai</small>
           </a>
         </div>
 
         <div class="contact-card">
-          <!-- Replace this with your iRed Wave LinkedIn company page when ready -->
-          <a href="https://linkedin.com" target="_blank" rel="noopener">
-            <b>LinkedIn</b>
-            <small>linkedin.com/in/priyangaaannathurai</small>
+          <a href="#top">
+            <b>Quick Start</b>
+            <small>Scroll to top</small>
           </a>
         </div>
       </div>
 
       <div class="pill-row" style="margin-top:14px;">
-        <span class="pill red">Remote Worldwide</span>
+        <span class="pill gold">Remote Worldwide</span>
         <span class="pill ok">Ethical support only</span>
-        <span class="pill">Ops + Cloud + DevOps + Data + AI/ML</span>
+        <span class="pill">Cloud + DevOps + Data + AI/ML + AI Creative</span>
       </div>
     </section>
 
     <footer>
-      <div>© <span id="year"></span> iRed Wave • Practical IT. Professional Service.</div>
+      <div>© <span id="year"></span> Priyangaa Annathurai • Cloud • DevOps • Data • AI/ML</div>
+      <div class="muted2" style="margin-top:6px;">Built on GitHub Pages • Single-file deployment</div>
     </footer>
   </div>
 
@@ -935,11 +1004,10 @@
     // Year
     document.getElementById("year").textContent = new Date().getFullYear();
 
-    // Lightweight typing effect (techy, but not heavy)
-    // If you want to turn it off, replace the <span id="typed"></span> with normal text and delete this block.
+    // Lightweight typing effect
     const lines = [
-      "Remote services that keep your systems fast, stable & scalable.",
-      "IT Operations • Cloud Engineering • DevOps Automation • Data Pipelines • AI/ML Enablement."
+      "Engineering-led remote delivery — fast, stable & scalable.",
+      "Cloud • DevOps • Data Engineering • AI/ML • AI Animation Videos & Graphics."
     ];
     const el = document.getElementById("typed");
     let lineIndex = 0, charIndex = 0, deleting = false;
@@ -950,7 +1018,7 @@
         el.textContent = current.slice(0, charIndex++);
         if(charIndex > current.length){
           deleting = true;
-          setTimeout(tick, 1200);
+          setTimeout(tick, 1100);
           return;
         }
       } else {
@@ -960,7 +1028,7 @@
           lineIndex = (lineIndex + 1) % lines.length;
         }
       }
-      const speed = deleting ? 25 : 35;
+      const speed = deleting ? 25 : 34;
       setTimeout(tick, speed);
     }
     tick();
